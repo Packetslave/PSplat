@@ -4,11 +4,11 @@ const path = require('path');
 const config = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: './dist'
+    contentBase: './docs'
   },
   module: {
     rules: [
