@@ -11,6 +11,7 @@
     "build-dev": "webpack -d --mode development",
     "build-prod": "webpack -p --mode production",
     "start": "webpack-dev-server --open"
+
   },
   "dependencies": {
     "p5": "^0.9.0"
@@ -19,9 +20,9 @@
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "babel-loader": "^8.0.6",
-    "copy-webpack-plugin": "^5.0.4",
+    "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.2.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.0",
     "prettier": "^1.18.2",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
